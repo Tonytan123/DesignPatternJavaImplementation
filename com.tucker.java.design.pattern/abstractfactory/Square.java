@@ -1,4 +1,4 @@
-package apperance;
+package abstractfactory;
 
 /**
  * @author tonyc
@@ -6,6 +6,6 @@ package apperance;
 public class Square implements Shape{
     @Override
     public void draw() {
-        System.out.println("we draw a square");
+        System.out.println("we draw a square.");
     }
 }
